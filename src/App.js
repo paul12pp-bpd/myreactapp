@@ -20,7 +20,7 @@ function App() {
           Learn React with Paul webhook!
         </a>
         <a className="App-link" href="#">{env_var}</a>
-        <a className="App-link" href="#">{node_env} | mm</a>
+        <a className="App-link" href="#">{node_env} | mm2</a>
       </header>
     </div>
   );
