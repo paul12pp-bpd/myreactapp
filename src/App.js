@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+const env_var = process.env['REACT_APP_PRUEBA_ENV'] || 'empty';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React with Paul webhook!
         </a>
+        <a className="App-link" href="#">{env_var}</a>
       </header>
     </div>
   );
